@@ -4,7 +4,7 @@ public class PrintHello extends Thread{
 
 	@Override
 	public void run() {
-		int num = 10;
+		int num = 11;
 		while(true){
 			System.out.println("hello"+num);
 			try {
