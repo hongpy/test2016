@@ -3,7 +3,7 @@ package com.hong.test;
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.println("²âÊÔ");
+		System.out.println("æµ‹è¯•");
 		/*ThreadSafeTest t=new ThreadSafeTest();
 		Thread tA = new Thread(t);
 		Thread tB = new Thread(t);
@@ -13,9 +13,7 @@ public class Test {
 		tB.start();
 		tC.start();
 		tD.start();*/
-		
 		new PrintHello().start();
-		
 	}
 
 }
