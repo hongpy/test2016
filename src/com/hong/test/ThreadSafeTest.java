@@ -6,7 +6,8 @@ public class ThreadSafeTest implements Runnable{
 	@Override
 	public void run() {
 		while(true){
-			synchronized(ThreadSafeTest.class){ // 票据测试
+			// 票据测试
+			synchronized(ThreadSafeTest.class){
 				if(num>0){
 					try {
 						Thread.sleep(1000);
