@@ -6,7 +6,7 @@ public class ThreadSafeTest implements Runnable{
 	@Override
 	public void run() {
 		while(true){
-			synchronized(""){ //同步机制的关键字
+			synchronized(""){ // 绁ㄦ嵁娴嬭瘯
 				if(num>0){
 					try {
 						Thread.sleep(1000);
